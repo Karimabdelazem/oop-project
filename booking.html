@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>presecription</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <div class="background-container">
+        <div class="overlay">
+            <div class="content">
+                <h1>Name of the Pharmacy</h1>
+                <div class="index">
+                    <h3> Name</h3>
+                    <input type=" text" id="name" placeholder="Name of Patient" required>
+                    <h3>Email for contact</h3>
+                    <input type="email" id="email" placeholder="Ex@gmail.com" required>
+                    <h3>Phone Number</h3>
+                    <input type="tel" id="phone_number" placeholder="please write valid Number" required>
+                    <h3>Date of Birth</h3>
+                    <input type="date" id="dob" required>
+                    <h3>Address</h3>
+                    <input type="text" id="address" placeholder="Address" required>
+                    <h3>Gender</h3>
+                    <select name="Gender" id="Gender" required>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                      </select>
+                      <textarea name="history" rows="6" cols="50" placeholder="write your medical history here ... "></textarea>
+                    <button type="submit" id="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

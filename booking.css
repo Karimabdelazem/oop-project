@@ -1,0 +1,117 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.background-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-vector/clean-medical-background_53876-97927.jpg?t=st=1744804569~exp=1744808169~hmac=c373ec71ff6c622a9da4bcd4994babb9c46275b49c51b6212545bad493aeaca4&w=1380'); /* حط هنا رابط الخلفية بتاعتك */
+    background-size: cover;
+    background-position: center;
+   
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1); /* دي الطبقة الغامقة، غيّر الشفافية لو حبيت */
+  }
+  
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 700px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1{
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    color: #09e6a4;
+}
+#submit{
+    position: absolute;
+    top: 90%;
+    width: 30%;
+    padding: 10px;
+    background-color: #09e6a4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+#check{
+    position: absolute;
+    top: 90%;
+    width: 30%;
+    right: 5%;
+    padding: 10px;
+    background-color: #09e6a4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.index{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+select{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #747171;
+    font-size: 16px;   
+     
+}
+#submit{
+    position: absolute;
+    top: 93%;
+    width: 24%;
+    padding: 10px;
+    background-color: #09e6a4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    left: 38%;
+}
+
+
+#name{
+    height: 20px;
+}
+#email{
+    height: 20px;
+}
+#phone_number{
+    height: 20px;
+}
+#dob{
+    height: 20px;
+}
+#address{
+    height: 20px;
+}
+h3{
+    margin: 15px 0;
+}
